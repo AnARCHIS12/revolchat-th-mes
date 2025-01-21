@@ -1,0 +1,110 @@
+/* Anarcho-Syndicalisme */
+
+/* Arrière-plan général */
+body {
+    background-color: #ff0000;
+    color: #eaeaea;
+    font-family: 'Courier New', monospace;
+}
+
+/* Conteneur principal */
+#app {
+    background-color: #101010;
+    border-left: 3px solid #ff0000; /* Rouge syndicaliste */
+    border-right: 3px solid #eaeaea; /* Accent blanc */
+}
+
+/* Barre latérale */
+.sidebar {
+    background-color: #141414;
+    border-right: 2px solid #ff0000;
+}
+
+.sidebar a {
+    color: #eaeaea;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sidebar a:hover {
+    background-color: #ff0000;
+    color: #0d0d0d;
+}
+
+/* Zone de chat */
+.chat-container {
+    background-color: #1a1a1a;
+    border-left: 1px solid #ff0000;
+    border-right: 1px solid #eaeaea;
+}
+
+/* Messages */
+.message {
+    background-color: #262626;
+    border-left: 3px solid #ff0000;
+    color: #eaeaea;
+}
+
+.message:hover {
+    background-color: #333333;
+}
+
+/* Nom des utilisateurs */
+.username {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.username.admin {
+    color: #eaeaea;
+    text-decoration: underline;
+}
+
+/* Saisie de texte */
+.input-container {
+    background-color: #1a1a1a;
+    border-top: 2px solid #ff0000;
+}
+
+.input-container input {
+    background-color: #101010;
+    color: #eaeaea;
+    border: 1px solid #ff0000;
+}
+
+.input-container input:focus {
+    border-color: #eaeaea;
+}
+
+/* Boutons */
+button {
+    background-color: #ff0000;
+    color: #0d0d0d;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #eaeaea;
+    color: #ff0000;
+}
+
+/* Notifications */
+.notification {
+    background-color: #ff0000;
+    color: #0d0d0d;
+    border-left: 4px solid #eaeaea;
+}
+
+/* Liens */
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaeaea;
+    text-decoration: underline;
+}

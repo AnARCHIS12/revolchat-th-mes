@@ -1,0 +1,109 @@
+/* Anarcho-Transhumanisme */
+
+/* Arrière-plan général */
+body {
+    background-color: #0000ff; /* Bleu très foncé */
+    color: #b0c4de; /* Bleu clair */
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Conteneur principal */
+#app {
+    background-color: #0a0a1f;
+    border-left: 3px solid #1e90ff; /* Bleu vif */
+    border-right: 3px solid #1e90ff;
+}
+
+/* Barre latérale */
+.sidebar {
+    background-color: #0d0d2b;
+    border-right: 2px solid #1e90ff;
+}
+
+.sidebar a {
+    color: #b0c4de;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    background-color: #1e90ff;
+    color: #0d0d2b;
+}
+
+/* Zone de chat */
+.chat-container {
+    background-color: #0a0a1f;
+    border-left: 1px solid #1e90ff;
+    border-right: 1px solid #4682b4; /* Bleu acier */
+}
+
+/* Messages */
+.message {
+    background-color: #13134d; /* Bleu plus foncé */
+    border-left: 3px solid #1e90ff;
+    color: #b0c4de;
+}
+
+.message:hover {
+    background-color: #1b1b65; /* Légèrement plus clair */
+}
+
+/* Nom des utilisateurs */
+.username {
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+.username.admin {
+    color: #4682b4; /* Bleu acier */
+}
+
+/* Saisie de texte */
+.input-container {
+    background-color: #0d0d2b;
+    border-top: 2px solid #1e90ff;
+}
+
+.input-container input {
+    background-color: #0a0a1f;
+    color: #b0c4de;
+    border: 1px solid #1e90ff;
+}
+
+.input-container input:focus {
+    border-color: #4682b4;
+}
+
+/* Boutons */
+button {
+    background-color: #1e90ff;
+    color: #0d0d2b;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #b0c4de;
+    color: #1e90ff;
+}
+
+/* Notifications */
+.notification {
+    background-color: #1e90ff;
+    color: #0d0d2b;
+    border-left: 4px solid #4682b4;
+}
+
+/* Liens */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4682b4;
+    text-decoration: underline;
+}

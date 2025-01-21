@@ -1,0 +1,108 @@
+/* Anarcho-Primitivisme */
+
+/* Arrière-plan général */
+body {
+    background-color: #09ff00; /* Vert forêt */
+    color: #d9f0e1; /* Vert pâle */
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Conteneur principal */
+#app {
+    background-color: #0d3c0d;
+    border-left: 3px solid #3dbb37; /* Vert clair */
+    border-right: 3px solid #3dbb37;
+}
+
+/* Barre latérale */
+.sidebar {
+    background-color: #0a290a;
+    border-right: 2px solid #3dbb37;
+}
+
+.sidebar a {
+    color: #d9f0e1;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    background-color: #3dbb37;
+    color: #0b2f0a;
+}
+
+/* Zone de chat */
+.chat-container {
+    background-color: #0a290a;
+    border-left: 1px solid #3dbb37;
+    border-right: 1px solid #3dbb37;
+}
+
+/* Messages */
+.message {
+    background-color: #0e3c0d;
+    border-left: 3px solid #3dbb37;
+    color: #d9f0e1;
+}
+
+.message:hover {
+    background-color: #154d14;
+}
+
+/* Nom des utilisateurs */
+.username {
+    color: #3dbb37;
+    font-weight: bold;
+}
+
+.username.admin {
+    color: #d9f0e1;
+}
+
+/* Saisie de texte */
+.input-container {
+    background-color: #0a290a;
+    border-top: 2px solid #3dbb37;
+}
+
+.input-container input {
+    background-color: #0b2f0a;
+    color: #d9f0e1;
+    border: 1px solid #3dbb37;
+}
+
+.input-container input:focus {
+    border-color: #d9f0e1;
+}
+
+/* Boutons */
+button {
+    background-color: #3dbb37;
+    color: #0b2f0a;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d9f0e1;
+    color: #0b2f0a;
+}
+
+/* Notifications */
+.notification {
+    background-color: #3dbb37;
+    color: #0b2f0a;
+    border-left: 4px solid #d9f0e1;
+}
+
+/* Liens */
+a {
+    color: #3dbb37;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d9f0e1;
+    text-decoration: underline;
+}

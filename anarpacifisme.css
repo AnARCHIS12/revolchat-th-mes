@@ -1,0 +1,110 @@
+/* Anarcho-Pacifisme */
+
+/* Arrière-plan général */
+body {
+    background-color: #f5f5f5; /* Blanc cassé */
+    color: #4169e1; /* Bleu royal */
+    font-family: 'Tahoma', sans-serif;
+}
+
+/* Conteneur principal */
+#app {
+    background-color: #ffffff;
+    border-left: 3px solid #87ceeb; /* Bleu ciel */
+    border-right: 3px solid #87ceeb;
+}
+
+/* Barre latérale */
+.sidebar {
+    background-color: #f0f8ff;
+    border-right: 2px solid #87ceeb;
+}
+
+.sidebar a {
+    color: #4169e1;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sidebar a:hover {
+    background-color: #87ceeb;
+    color: #f5f5f5;
+}
+
+/* Zone de chat */
+.chat-container {
+    background-color: #ffffff;
+    border-left: 1px solid #87ceeb;
+    border-right: 1px solid #4169e1;
+}
+
+/* Messages */
+.message {
+    background-color: #e6f7ff;
+    border-left: 3px solid #87ceeb;
+    color: #4169e1;
+}
+
+.message:hover {
+    background-color: #d0f0ff;
+}
+
+/* Nom des utilisateurs */
+.username {
+    color: #87ceeb;
+    font-weight: bold;
+}
+
+.username.admin {
+    color: #4169e1;
+    text-decoration: underline;
+}
+
+/* Saisie de texte */
+.input-container {
+    background-color: #f0f8ff;
+    border-top: 2px solid #87ceeb;
+}
+
+.input-container input {
+    background-color: #ffffff;
+    color: #4169e1;
+    border: 1px solid #87ceeb;
+}
+
+.input-container input:focus {
+    border-color: #4169e1;
+}
+
+/* Boutons */
+button {
+    background-color: #87ceeb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #4169e1;
+    color: #f0f8ff;
+}
+
+/* Notifications */
+.notification {
+    background-color: #87ceeb;
+    color: #ffffff;
+    border-left: 4px solid #4169e1;
+}
+
+/* Liens */
+a {
+    color: #87ceeb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4169e1;
+    text-decoration: underline;
+}

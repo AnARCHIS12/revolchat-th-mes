@@ -1,0 +1,141 @@
+/* Anarcha-Kawaii */
+
+/* Arrière-plan général */
+body {
+    background-color: #ffe6f0; /* Rose pastel clair */
+    color: #6a0dad; /* Violet foncé */
+    font-family: 'Comic Sans MS', cursive;
+}
+
+/* Conteneur principal */
+#app {
+    background-color: #ffd1dc; /* Rose bonbon doux */
+    border-left: 3px solid #ff69b4; /* Rose vif */
+    border-right: 3px solid #ff69b4;
+    box-shadow: 0 0 10px #ffb6c1;
+}
+
+/* Barre latérale */
+.sidebar {
+    background-color: #ffc0cb; /* Rose clair */
+    border-right: 2px solid #ff69b4;
+}
+
+.sidebar a {
+    color: #6a0dad; /* Violet foncé */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sidebar a:hover {
+    background-color: #ff69b4;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Zone de chat */
+.chat-container {
+    background-color: #ffe4e1; /* Rose très clair */
+    border-left: 1px solid #ff69b4;
+    border-right: 1px solid #dda0dd; /* Lavande */
+}
+
+/* Messages */
+.message {
+    background-color: #ffcce7; /* Rose pastel */
+    border-left: 3px solid #ff69b4;
+    color: #6a0dad;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-style: italic;
+}
+
+.message:hover {
+    background-color: #ffe6f0;
+}
+
+/* Nom des utilisateurs */
+.username {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.username.admin {
+    color: #dda0dd; /* Violet clair */
+    text-decoration: underline wavy;
+}
+
+/* Saisie de texte */
+.input-container {
+    background-color: #ffcce7;
+    border-top: 2px solid #ff69b4;
+}
+
+.input-container input {
+    background-color: #ffe6f0;
+    color: #6a0dad;
+    border: 1px solid #ff69b4;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.input-container input:focus {
+    border-color: #dda0dd;
+    box-shadow: 0 0 5px #ff69b4;
+}
+
+/* Boutons */
+button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 5px #d94087;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #dda0dd;
+    color: #ff69b4;
+    box-shadow: 0 5px #b03060;
+    transform: translateY(-3px);
+}
+
+/* Notifications */
+.notification {
+    background-color: #ff69b4;
+    color: #fff;
+    border-left: 4px solid #dda0dd;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Liens */
+a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #dda0dd;
+    text-decoration: underline dotted;
+}
+
+/* Ajout de petites icônes mignonnes */
+.message:before {
+    content: "🌸 ";
+}
+
+.username:before {
+    content: "🎀 ";
+}
+
+button:before {
+    content: "✨ ";
+}

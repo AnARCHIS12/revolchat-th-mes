@@ -1,0 +1,98 @@
+/* Anarcho-Queer */
+
+/* Arrière-plan général */
+body {
+    background-color: #1a1a1a;
+    color: #ffb3ff; /* Rose pastel clair */
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Conteneur principal */
+#app {
+    background-color: #111111;
+    border-left: 3px solid #ff69b4; /* Rose vif */
+    border-right: 3px solid #ff69b4;
+}
+
+/* Barre latérale */
+.sidebar {
+    background-color: #1a1a1a;
+    border-right: 2px solid #ff69b4;
+}
+
+.sidebar a {
+    color: #ffb3ff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sidebar a:hover {
+    background-color: #ff69b4;
+    color: #1a1a1a;
+}
+
+/* Zone de chat */
+.chat-container {
+    background-color: #0f0f0f;
+    border-left: 1px solid #ff69b4;
+    border-right: 1px solid #ff1493; /* Rose intense */
+}
+
+/* Messages */
+.message {
+    background-color: #2a2a2a;
+    border-left: 3px solid #ff69b4;
+    color: #ffb3ff;
+}
+
+.message:hover {
+    background-color: #3b3b3b;
+}
+
+/* Nom des utilisateurs */
+.username {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+.username.admin {
+    color: #ff1493;
+    text-decoration: underline;
+}
+
+/* Saisie de texte */
+.input-container {
+    background-color: #1a1a1a;
+    border-top: 2px solid #ff69b4;
+}
+
+.input-container input {
+    background-color: #111111;
+    color: #ffb3ff;
+    border: 1px solid #ff69b4;
+}
+
+.input-container input:focus {
+    border-color: #ff1493;
+}
+
+/* Boutons */
+button {
+    background-color: #ff69b4;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffb3ff;
+    color: #ff69b4;
+}
+
+/* Notifications */
+.notification {
+    background-color: #ff69b4;
+    color: #1a1a
+}

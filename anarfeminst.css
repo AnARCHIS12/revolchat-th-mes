@@ -1,0 +1,110 @@
+/* Anarcho-Féminisme */
+
+/* Arrière-plan général */
+body {
+    background-color: #ff00ff;
+    color: #e9d3f8; /* Violet pâle */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Conteneur principal */
+#app {
+    background-color: #101010;
+    border-left: 3px solid #9b59b6; /* Violet féministe */
+    border-right: 3px solid #9b59b6;
+}
+
+/* Barre latérale */
+.sidebar {
+    background-color: #1a1a1a;
+    border-right: 2px solid #9b59b6;
+}
+
+.sidebar a {
+    color: #e9d3f8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sidebar a:hover {
+    background-color: #9b59b6;
+    color: #1a1a1a;
+}
+
+/* Zone de chat */
+.chat-container {
+    background-color: #0f0f0f;
+    border-left: 1px solid #9b59b6;
+    border-right: 1px solid #e9d3f8;
+}
+
+/* Messages */
+.message {
+    background-color: #2a2a2a;
+    border-left: 3px solid #9b59b6;
+    color: #e9d3f8;
+}
+
+.message:hover {
+    background-color: #3b3b3b;
+}
+
+/* Nom des utilisateurs */
+.username {
+    color: #9b59b6;
+    font-weight: bold;
+}
+
+.username.admin {
+    color: #e9d3f8;
+    text-decoration: underline;
+}
+
+/* Saisie de texte */
+.input-container {
+    background-color: #1a1a1a;
+    border-top: 2px solid #9b59b6;
+}
+
+.input-container input {
+    background-color: #101010;
+    color: #e9d3f8;
+    border: 1px solid #9b59b6;
+}
+
+.input-container input:focus {
+    border-color: #e9d3f8;
+}
+
+/* Boutons */
+button {
+    background-color: #9b59b6;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e9d3f8;
+    color: #9b59b6;
+}
+
+/* Notifications */
+.notification {
+    background-color: #9b59b6;
+    color: #1a1a1a;
+    border-left: 4px solid #e9d3f8;
+}
+
+/* Liens */
+a {
+    color: #9b59b6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e9d3f8;
+    text-decoration: underline;
+}
