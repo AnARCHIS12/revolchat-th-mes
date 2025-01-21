@@ -16,7 +16,7 @@
 
 ```bash
 # Copy this code into your Revolt settings
-@import url("https://antidroitard.revolt.style");
+git clone https://github.com/AnARCHIS12/revolchat-th-mes
 ```
 
 ## 🎨 Features
