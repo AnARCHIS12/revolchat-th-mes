@@ -3,7 +3,7 @@
 /* Arrière-plan général */
 body {
     background-color: #121212;
-    color: #e0e0e0;
+    color: #48ff00;
     font-family: 'Courier New', monospace;
 }
 
@@ -41,7 +41,7 @@ body {
 .message {
     background-color: #1a1a1a;
     border-left: 3px solid #ff0000;
-    color: #e0e0e0;
+    color: #ff0000;
 }
 
 .message:hover {
@@ -110,6 +110,6 @@ a:hover {
 /* Mode sombre activé */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #0d0d0d;
+        background-color: #ff0000;
     }
 }
