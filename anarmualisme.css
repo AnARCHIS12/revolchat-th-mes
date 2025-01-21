@@ -2,7 +2,7 @@
 
 /* Arrière-plan général */
 body {
-    background-color: #ff8800; /* orange terreux */
+    background-color: #ff8800; /* Marron terreux */
     color: #000000; /* Beige clair */
     font-family: 'Georgia', serif;
 }
@@ -63,7 +63,7 @@ body {
 /* Saisie de texte */
 .input-container {
     background-color: #2e2b25;
-    border-top: 2px solid #6b8e23;
+    border-top: 2px solid #ffd000;
 }
 
 .input-container input {
@@ -93,7 +93,7 @@ button:hover {
 
 /* Notifications */
 .notification {
-    background-color: #6b8e23;
+    background-color: #ff9900;
     color: #2e2b25;
     border-left: 4px solid #8b4513;
 }
