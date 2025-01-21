@@ -2,7 +2,6 @@
 
 # 🌌 ANARCHIST Theme for Revolt Chat 🌌
 
-<img src="https://raw.githubusercontent.com/AnARCHIS12/antidroitard-/main/preview.png" width="520" alt="Preview">
 
 [![Version](https://img.shields.io/badge/VERSION-1.0.0-e535ab?style=for-the-badge&labelColor=black)](https://github.com/AnARCHIS12/antidroitard-)
 [![Revolt](https://img.shields.io/badge/REVOLT-COMPATIBLE-ff4655?style=for-the-badge&labelColor=black&logo=revolt.chat)](https://revolt.chat)
