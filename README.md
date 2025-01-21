@@ -3,10 +3,10 @@
 # 🌌 ANARCHIST Theme for Revolt Chat 🌌
 
 
-[![Version](https://img.shields.io/badge/VERSION-1.0.0-e535ab?style=for-the-badge&labelColor=black)](https://github.com/AnARCHIS12/antidroitard-)
+[![Version](https://img.shields.io/badge/VERSION-1.0.0-e535ab?style=for-the-badge&labelColor=black)](https://github.com/AnARCHIS12/revolchat-th-mes)
 [![Revolt](https://img.shields.io/badge/REVOLT-COMPATIBLE-ff4655?style=for-the-badge&labelColor=black&logo=revolt.chat)](https://revolt.chat)
-[![Downloads](https://img.shields.io/badge/DOWNLOADS-1K+-00ff00?style=for-the-badge&labelColor=black)](https://github.com/AnARCHIS12/antidroitard-)
-[![Stars](https://img.shields.io/badge/⭐_STARS-50+-FFD700?style=for-the-badge&labelColor=black)](https://github.com/AnARCHIS12/antidroitard-)
+[![Downloads](https://img.shields.io/badge/DOWNLOADS-1K+-00ff00?style=for-the-badge&labelColor=black)](https://github.com/AnARCHIS12/revolchat-th-mes)
+[![Stars](https://img.shields.io/badge/⭐_STARS-50+-FFD700?style=for-the-badge&labelColor=black)](https://github.com/AnARCHIS12/revolchat-th-mes)
 
 ---
 
@@ -171,8 +171,7 @@ a:hover {
 <div align="center">
 
 [![Discord](https://img.shields.io/badge/DISCORD-Support-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=black)](https://discord.gg/support)
-[![Issues](https://img.shields.io/badge/GITHUB-Issues-ff4655?style=for-the-badge&logo=github&logoColor=white&labelColor=black)](https://github.com/issues)
-
+[![Issues](https://img.shields.io/badge/GITHUB-Issues-ff4655?style=for-the-badge&logo=github&logoColor=white&labelColor=black)](https://github.com/AnARCHIS12/revolchat-th-mes/issues)
 </div>
 
 ## ⚖️ License
