@@ -12,10 +12,10 @@
 
 </div>
 
-## 🚀 Quick Installation
+## 🚀 Quick Download
 
 ```bash
-# Copy this code into your Revolt settings
+# git to download thémes 
 git clone https://github.com/AnARCHIS12/revolchat-th-mes
 ```
 
