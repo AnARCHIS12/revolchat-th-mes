@@ -2,22 +2,22 @@
 
 /* Arrière-plan général */
 body {
-    background-color: #2e2b25; /* Marron terreux */
-    color: #d0d0b5; /* Beige clair */
+    background-color: #ff8800; /* Marron terreux */
+    color: #000000; /* Beige clair */
     font-family: 'Georgia', serif;
 }
 
 /* Conteneur principal */
 #app {
     background-color: #25221d; /* Marron plus foncé */
-    border-left: 3px solid #6b8e23; /* Vert olive */
-    border-right: 3px solid #6b8e23;
+    border-left: 3px solid #ff8800; /* Vert olive */
+    border-right: 3px solid #ff8800;
 }
 
 /* Barre latérale */
 .sidebar {
     background-color: #2e2b25;
-    border-right: 2px solid #6b8e23;
+    border-right: 2px solid #ff8800;
 }
 
 .sidebar a {
@@ -27,7 +27,7 @@ body {
 }
 
 .sidebar a:hover {
-    background-color: #6b8e23;
+    background-color: #ff8800;
     color: #2e2b25;
 }
 
